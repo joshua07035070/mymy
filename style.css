@@ -1,0 +1,186 @@
+/*overall container*/
+
+.container{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: ghostwhite;
+}
+
+
+/*navigation section*/
+
+
+header{
+	height: 5px;
+	background-color: #383b40;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-color: 1px solid #1e64f4;
+}
+
+.logo{
+	font-size: 18px;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	float: left;
+	text-align: undefined;
+	color: #fff;
+	list-style: none;
+	text-decoration: none;
+	transition: 0.3s linear;
+	margin-top: -4px;
+	margin-left: 45px;
+}
+
+nav{
+    float: right;
+    text-align: right;
+    margin-right: 25px;
+    width: 50%;
+}
+
+header nav ul{
+	float: right;
+	list-style: none;
+}
+
+nav ul li{
+	float: left;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: left;
+	letter-spacing: 2px;
+	transition: 0.3s linear;
+	margin-right: 25px;
+	color: #fff;
+	font-size: 17px;
+	margin-top: -17px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+ul li:hover a{
+	color: #2C9AB7;
+}
+
+
+
+
+/*hero section*/
+
+
+.hero{
+	background-color: #0958f9;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 120px;
+	color: #000000;
+	text-decoration: none;
+	height: 100px;
+}
+
+.text{
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 4px;
+	line-height: 35px;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.website{
+	text-align: center;
+	font-weight: bold;
+	line-height: 10px;
+	font-size: 50px;
+	text-decoration: none;
+}
+
+.number{
+	text-align: center;
+	font-weight: lighter;
+	font-size: 15px;
+	text-decoration: none;
+	margin-top: -20px;
+}
+
+
+/*about section*/
+
+.content{
+ 	text-align: justify;
+ 	margin-top: 15%;
+ 	margin-bottom: 15%;
+ 	padding: 50px;
+ 	padding-top: 1px;
+ 	padding-bottom: 1px;
+ 	display: flex;
+}
+
+.img{
+	border-radius: 50px;
+}
+
+
+.about{
+	text-align: center;
+	padding-bottom: 10px;
+	color: #000;
+}
+
+
+
+.text3{
+	width: 650px;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+
+
+/*MY SKILLS SECTION*/
+
+.headline{
+	width: 1200px;
+	height: 1000px;
+	background-color: #FFF;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	display: flex;
+	font-size: x-large;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+}	
+
+.skills{
+	text-align: center;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	color: #000;
+	font-size: 49px;
+	margin-left: 100px;
+}
+
+.words{
+	text-align: justify;
+    color: #000;
+}
+
+.skill{
+    width: 29%;
+    text-align: justify;
+	font-size: medium;
+    font-weight: lighter;
+    line-height: 25px;
+    padding-right: 20px;
+    padding-left: 28px;
+    float: left;
+}
